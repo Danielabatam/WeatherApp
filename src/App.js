@@ -30,7 +30,7 @@ const APIkey = 'b3defab481a9968b9e1cc328ab0daab0'
 
 const App = () => {
     const [data, setData] = useState(null);
-    const [location, setLocation] = useState('Bucharest');
+    const [location, setLocation] = useState('Douala');
     const [inputValue, setInputValue] = useState('');
     const [animate, setAnimate] = useState(false);
     const [loading, setLoading] = useState(false);
